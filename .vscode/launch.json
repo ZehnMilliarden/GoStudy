@@ -5,16 +5,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Package",
+            "name": "Launch",
             "type": "go",
+            // "request": "attach", // can be launch or attach
+            // "mode": "local",
             "request": "launch",
-            "mode": "auto",
-            "remotePath": "",
-            "port": 2345,
-            "host": "127.0.0.1",
             "program": "${fileDirname}",
+            "mode":"auto",
+            // 编译后远程生成的位置
+            //"remotePath": "${workspaceFolder}/src/grammer",
+            // dlv server 监听的端口
+            //"port": 2345,
+            // dlv 远程调试的主机ip
+            //"host": "127.0.0.1",
             "env": {
-                "GOPATH": "D:/Go",    // 你的GOPATH
+                "GOPATH": "${workspaceFolder}/gopath",    // 你的GOPATH
                 "GOROOT": "D:/Go"	// GOROOT，GO的安装目录
             },
             "args": [],
