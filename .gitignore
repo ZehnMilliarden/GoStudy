@@ -13,3 +13,7 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+/project_1/pkg
+/project_1/bin
+/project_2/pkg
+/project_2/bin

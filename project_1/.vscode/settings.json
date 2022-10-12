@@ -1,0 +1,9 @@
+{
+    "go.gopath": "${workspaceFolder}",
+    "go.autocompleteUnimportedPackages": true,
+    "go.inferGopath": false,
+    "go.toolsEnvVars": {
+        "GO111MODULE": "on"
+    },
+    "git.ignoreLimitWarning": true
+}

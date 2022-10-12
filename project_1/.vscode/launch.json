@@ -19,8 +19,7 @@
             // dlv 远程调试的主机ip
             //"host": "127.0.0.1",
             "env": {
-                "GOPATH": "${workspaceFolder}/gopath",    // 你的GOPATH
-                "GOROOT": "D:/Go"	// GOROOT，GO的安装目录
+                "GOPATH": "${workspaceFolder}",
             },
             "args": [],
         }
