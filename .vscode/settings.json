@@ -1,5 +1,4 @@
 {
-    "go.gopath": "${workspaceFolder}",
     "go.autocompleteUnimportedPackages": true,
     "go.inferGopath": false,
     "go.toolsEnvVars": {
